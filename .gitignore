@@ -1,0 +1,199 @@
+# =============================================================================
+# PYTHON
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# Type checker caches
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyright/
+.ruff_cache/
+
+# =============================================================================
+# PACKAGE MANAGERS
+# =============================================================================
+
+# --- uv ---
+.venv/
+.uv/
+uv.lock
+
+# --- pip ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- conda / mamba / micromamba ---
+.conda/
+envs/
+*.conda
+
+# --- virtualenv (generic) ---
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================================================================
+# JUPYTER / NOTEBOOKS
+# =============================================================================
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Jupyter lab / server runtime
+.jupyter/
+jupyter_notebook_config.py
+profile_default/
+
+# nbconvert output artifacts
+*.nbconvert/
+
+# Notebook-adjacent output dirs (common convention)
+notebooks/output/
+notebooks/figures/
+
+# =============================================================================
+# IDE — JetBrains (PyCharm, DataSpell, IntelliJ, etc.)
+# =============================================================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# Shelf / local history — machine-specific
+shelf/
+workspace.xml
+
+# =============================================================================
+# IDE — VS Code
+# =============================================================================
+
+.vscode/
+# Keep shared launch / extensions recommendations if desired:
+# !.vscode/launch.json
+# !.vscode/extensions.json
+*.code-workspace
+
+# =============================================================================
+# OPERATING SYSTEM
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =============================================================================
+# DATA & OUTPUTS (project-specific)
+# =============================================================================
+
+# Large data files — track with DVC or Git LFS instead
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Figures / plots generated at runtime
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Model artifacts
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# =============================================================================
+# SECRETS & ENVIRONMENT
+# =============================================================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+secrets.yaml
+
+# =============================================================================
+# LOGS & TEMP
+# =============================================================================
+
+logs/
+*.log
+*.tmp
+*.bak
+*.swp
